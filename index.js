@@ -31,5 +31,11 @@ function prependKittens(name) {
 function removeLastKitten() {
   var arr2 = kitten;
   arr2.pop();
-  
+  return arr2;
+}
+
+function removeFirstKitten() {
+  var aee2 = kittens;
+  arr2.shift();
+  return arr2;
 }
